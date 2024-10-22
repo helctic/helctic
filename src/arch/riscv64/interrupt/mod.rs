@@ -7,23 +7,10 @@ mod exception;
 pub mod syscall;
 pub mod trace;
 
-pub use self::trace::StackTrace;
-
-use crate::cpu_set::LogicalCpuId;
 pub use handler::InterruptStack;
 
 pub fn bsp_apic_id() -> Option<u32> {
     Some(0)
-}
-pub fn available_irqs_iter(_cpu_id: LogicalCpuId) -> impl Iterator<Item = u8> + 'static {
-    unimplemented!();
-    0..0
-}
-pub fn is_reserved(_cpu_id: LogicalCpuId, _index: u8) -> ! {
-    unimplemented!()
-}
-pub fn set_reserved(_cpu_id: LogicalCpuId, _index: u8, _reserved: bool) -> ! {
-    unimplemented!()
 }
 
 /// Clear interrupts
