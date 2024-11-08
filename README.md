@@ -1,6 +1,6 @@
 # Helctic Kernel
 
-![https://helctic.dev/assets/helctic.jpg)
+![Helctic Logo](https://helctic.dev/assets/helctic.jpg)
 
 ## Requirements
 
