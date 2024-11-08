@@ -1,10 +1,6 @@
-# Kernel
+# Helctic Kernel
 
-Redox OS Microkernel
-
-[![docs](https://img.shields.io/badge/docs-master-blue.svg)](https://docs.rs/redox_syscall/latest/syscall/)
-[![SLOCs counter](https://tokei.rs/b1/github/redox-os/kernel?category=code)](https://github.com/XAMPPRocky/tokei)
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+![https://helctic.dev/assets/helctic.jpg)
 
 ## Requirements
 
